@@ -1,0 +1,11 @@
+{
+  "name": "debugging-javascript-and-typescript",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "buildfailed",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  }
+}
