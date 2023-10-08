@@ -1,5 +1,6 @@
 console.log("Hi Youtube!");
 
+let ayo = 0;
 for (let i = 0; i < 10; i++) {
-  console.log("I am looping, index", i);
+  ayo = i * 10;
 }
