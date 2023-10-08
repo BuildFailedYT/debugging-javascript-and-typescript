@@ -3,9 +3,12 @@ enum Language {
   Typescript = "typescript",
 }
 
-console.log("Hi Youtube!");
-console.log("We are debugging:", Language.Typescript);
-
-for (let i = 0; i < 10; i++) {
-  console.log("I am looping, index", i);
+function printAyo(type: Language) {
+  let ayo = 0;
+  for (let i = 0; i < 10; i++) {
+    ayo = i * 10;
+  }
 }
+
+printAyo(Language.Javascript);
+printAyo(Language.Typescript);
